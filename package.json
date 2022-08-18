@@ -11,5 +11,8 @@
     "url": "node-files"
   },
   "author": "Gerard Keiser",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.6"
+  }
 }
