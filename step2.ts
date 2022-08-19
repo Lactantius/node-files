@@ -17,7 +17,7 @@ function cat(path: string) {
 }
 
 function webCat(path: string) {
-  fetch(path).then(async (res) => console.log(await res.text()));
+  fetch(path).then((res) => res.text()).then(text => console.log(text)).catch(err => console.log(err));
 }
 
 function main(arg: string): void {
